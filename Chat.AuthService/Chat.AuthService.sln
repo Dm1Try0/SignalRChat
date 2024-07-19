@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.AuthService.Domain", "Chat.AuthService\Chat.AuthService.Domain\Chat.AuthService.Domain.csproj", "{370893F8-D695-4FF0-B914-E87747A53C26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.AuthService.Infrastructure", "Chat.AuthService\Chat.AuthService.Infrastructure\Chat.AuthService.Infrastructure.csproj", "{76E0B784-5DB8-44F1-9800-CD8E88A2ED75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.AuthService.Web", "Chat.AuthService\Chat.AuthService.Web\Chat.AuthService.Web.csproj", "{6A5F4A9D-F171-4761-8AB6-549B180C6DE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370893F8-D695-4FF0-B914-E87747A53C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370893F8-D695-4FF0-B914-E87747A53C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370893F8-D695-4FF0-B914-E87747A53C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370893F8-D695-4FF0-B914-E87747A53C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E0B784-5DB8-44F1-9800-CD8E88A2ED75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E0B784-5DB8-44F1-9800-CD8E88A2ED75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E0B784-5DB8-44F1-9800-CD8E88A2ED75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E0B784-5DB8-44F1-9800-CD8E88A2ED75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5F4A9D-F171-4761-8AB6-549B180C6DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5F4A9D-F171-4761-8AB6-549B180C6DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5F4A9D-F171-4761-8AB6-549B180C6DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5F4A9D-F171-4761-8AB6-549B180C6DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {769904EC-735C-4AC4-BFF5-AF5BE39CAFCE}
+	EndGlobalSection
+EndGlobal

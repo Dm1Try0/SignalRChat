@@ -1,0 +1,50 @@
+﻿@page
+@model Chat.AuthService.Web.Pages.Profile.RegisterModel
+
+<div class="row">
+
+    <div class="col-md-4 offset-4">
+        @if (Model.Input != null)
+        {
+        <form method="post">
+
+              
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="mb-3 row">
+                <label class="form-label" asp-for="@Model.Input.FirstName"></label>
+                    <input type="text" class="form-control" asp-for="@Model.Input.FirstName">
+
+            </div>
+
+            <div class="mb-3 row">
+                <label class="form-label" asp-for="@Model.Input.LastName"></label>
+                    <input type="text" class="form-control" asp-for="@Model.Input.LastName">
+
+            </div>
+
+            <div class="mb-3 row">
+                <label class="form-label" asp-for="@Model.Input.Email"></label>
+                <input type="text" class="form-control" asp-for="@Model.Input.Email">
+
+            </div>
+
+            <div class="mb-3 row">
+                <label class="form-label" asp-for="@Model.Input.Password"></label>
+                <input class="form-control" type="password" asp-for="@Model.Input.Password" />
+
+            </div>
+            <div class="mb-3 row">
+                <label class="form-label" asp-for="@Model.Input.ConfirmPassword"></label>
+                <input class="form-control" type="password" asp-for="@Model.Input.ConfirmPassword" />
+
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
+            </div>
+            
+        </form>
+        }
+    </div>
+</div>

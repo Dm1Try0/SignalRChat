@@ -1,0 +1,1 @@
+﻿global using Chat.API.Domain.Base;

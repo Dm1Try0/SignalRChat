@@ -1,0 +1,32 @@
+﻿@page
+@model Chat.Web.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login in Topgram";
+}
+<body>
+    <div class="main">
+        <h1>Topgram</h1>
+        <h3>Enter your login credentials</h3>
+        <form method="post">
+             @if (Model.Input != null)
+            {
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="mb-3 row">
+                    <label class="form-label"   asp-for="@Model.Input.Username"></label>
+                    <input type="text" id="first" placeholder="Enter your Username" class="form-control" asp-for="@Model.Input.Username">
+
+                </div>
+
+                <div class="mb-3 row">
+                    <label class="form-label" asp-for="@Model.Input.Password"></label>
+                    <input class="form-control" id="password" placeholder="Enter your Password" type="password" asp-for="@Model.Input.Password" />
+
+                </div>
+                <div class="text-center">
+                    <button class="wrap" type="submit">Вход</button>
+                </div>
+            }
+        </form>
+    </div>
+</body>

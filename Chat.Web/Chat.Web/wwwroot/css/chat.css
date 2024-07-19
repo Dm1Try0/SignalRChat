@@ -1,0 +1,113 @@
+﻿body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #f3f3f3;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.disconect {
+    background-color: orangered;
+}
+
+.block1 {
+    width: 800px;
+    height: 700px;
+    position: relative;
+    left: 200px;
+    top: 0px;
+}
+.block2 {
+    width: 300px;
+    height: 800px;
+    position: relative;
+    top: -650px;
+    left: -300px;
+}
+
+.col{
+    width:500px;
+}
+
+.messages{
+    margin-left:500px;
+}
+
+.token{
+    visibility:hidden;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+
+input {
+    display: block;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#userToolbar{
+    position: relative;
+    top: 600px;
+    bottom:300px;
+}
+
+#send {
+    position: relative;
+    top: 600px;
+    bottom: 300px;
+}
+
+messageText{
+    width:50px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 200px;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
